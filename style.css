@@ -5,6 +5,7 @@ header img{
 }
 
 header{
+    background-color: #fff;
     height: 2.2cm;
     display: flex;
     width:100%;
@@ -64,11 +65,15 @@ header div li a{
     justify-content: center;
     gap: 2.2rem;
 }
+p{
+    color:#747474;
+    font-size: smaller;
+}
 #twop div{
     width:35%;
     font-size: 1.7rem;
     font-weight: 400;
-    color: #747474
+    
     
 }
 #threebox{
@@ -187,31 +192,119 @@ color: black;
 .greenarea .firstga p{
     margin-top: 1cm;
 }
- 
+
 .fourboxes{
-    width: 50%;
+    display:flex;
+}
+.firstga{
+    margin-right: 2cm;
+}
+.firstga img{
+   margin-top: 0.95cm;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.subfb{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    align-items:baseline;
-    padding: 0.5cm;
-    margin: 0.75cm;
-    gap: 0.5cm;
-    justify-content: last baseline;
-   
+    flex-direction: column;
 }
-.fourboxes img{
-    width: 1cm;
-    height: 1cm;
-}
-.fourboxes div{
-    background-color: #fff;
-    height: 6.4cm;
-    padding: 0.5cm;
-    text-align: center;
-    font-size: .8125em;
+.subfb div{
+    height: 6.75cm;
     width: 6cm;
+    background-color: #fff;
+    text-align: center;
+    margin: 0.3cm;
+    padding: 0.4cm;
+    border-radius: 6px;
 }
+
+.fourboxes img{
+    width: 1.15cm;
+    height: 1.15cm;
+}
+#extramargin{
+    margin-top: 0.8cm;
+}
+
 .greenarea h1,h3{
     color:#00b39b;
+}
+
+.openings{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;   
+    margin-top: 1.5cm;
+    justify-content: center;
+    
+}
+
+.openings div{
+    border-radius:3%;
+    margin: 0.44%;
+}
+.openings div:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.1);
+}
+.buttons{
+    margin-top: 0.5cm;
+    display:flex;
+    gap:2cm;
+    justify-content: center ;
+}
+.buttons p{
+    font-size: medium;
+}
+.buttons button{
+    background: #3d83df;
+    font-family: 'Roboto,Arial,sans-serif';
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 1em 1.5em;
+}
+
+#midtitle{
+    width: 100%;
+    text-align: center;
+    margin-top: 2cm;
+}
+
+#midtitle h1{
+    color:#00b39b;
+    margin-bottom: 1cm;
+}
+#lastdiv{
+    margin-top: 2.4cm;
+    margin-bottom: 2.4cm;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+}
+#lastdiv button{
+    background: #3d83df;
+    font-family: 'Roboto,Arial,sans-serif';
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 1em 1.5em;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 1cm;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.02);
 }
