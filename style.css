@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header img{
+    width:268px;
+    height:33;
+}
+
+header{
+    height: 2.2cm;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content:space-around;
+    position: sticky ;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+     
+}
+header div{
+    display: flex;
+}
+header div ul{
+    
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+header div li{
+    
+    float: left;
+    margin:12px;
+}
+header div li a{ 
+    color: #747474;
+    font-weight: 100;
+}
+#diftag{
+   color: #00b39b;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 6cm;
+    
+}
+#first p{
+    
+    font-size:  3.5rem;
+    color:#00b39b;
+    margin: 1em 0;
+    font-family: 'Roboto,Arial,sans-serif';
+    font-style: normal;
+    font-weight:100;
+    letter-spacing: 0.6px;
+}
+#twop{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap: 2.2rem;
+}
+#twop div{
+    width:35%;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #747474
+    
+}
+#threebox{
+    margin-top: 2cm;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    
+}
+
+#threebox div {
+    height: 345px;
+    padding: 1.375em 1.25em 0;
+    display: block;
+    width: 23%;
+    border-radius: 10px;
+}
+#threebox img{
+    margin-top: 0.5cm;
+}
+#threebox div h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    margin-top: 0.5cm;
+}
+#threebox div h2{
+
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin-top: 0.2cm;
+    font-family:'Roboto,Arial,sans-serif';
+}
+#threebox div select{
+    font-size:20px;
+    margin-top: 2cm;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+#threebox div select option{
+color: black;
+}
+
+#fbox{
+    background-color: #00ccb1;
+}
+#fbox:hover{
+    background-color: #03e9ca;
+}
+#sbox{
+    background-color: #3d83df;
+}
+#sbox:hover{
+    background-color: #4592f7;
+}
+#tbox{
+    background-color: #1b2734;
+}
+#tbox:hover{
+    background-color: #223242;
+}
+#tbox div select{
+    margin-top: 0.5cm;
+    
+}
+#midsection{
+    margin-top: 1.5cm;
+    display: flex;
+    width: 100%;
+    height: 2.6cm;
+    gap:2.82cm;
+    
+    justify-content: center ;
+}
+
+#midsection h1{
+    float: left;
+    font-size: 2.05em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+
+}
+#midsection div{
+    width:46%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+#midsection div a{
+    font-size: 20px;
+}
+.greenarea{
+    margin-top: 4cm;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #d0faf4;
+    height: 15.47cm;
+}
+.greenarea .firstga{
+    margin-top: 1cm;
+    width:30;
+}
+.greenarea .firstga p{
+    margin-top: 1cm;
+}
+ 
+.fourboxes{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items:baseline;
+    padding: 0.5cm;
+    margin: 0.75cm;
+    gap: 0.5cm;
+    justify-content: last baseline;
+   
+}
+.fourboxes img{
+    width: 1cm;
+    height: 1cm;
+}
+.fourboxes div{
+    background-color: #fff;
+    height: 6.4cm;
+    padding: 0.5cm;
+    text-align: center;
+    font-size: .8125em;
+    width: 6cm;
+}
+.greenarea h1,h3{
+    color:#00b39b;
+}
